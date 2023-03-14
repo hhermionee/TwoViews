@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwoViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXs-5b-69a">
-                                <rect key="frame" x="16" y="75" width="361" height="358.66666666666663"/>
+                                <rect key="frame" x="16" y="63" width="343" height="344.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3as-wi-SEx">
-                                <rect key="frame" x="16" y="443.66666666666674" width="361" height="358.33333333333326"/>
+                                <rect key="frame" x="16" y="417.66666666666674" width="343" height="344.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
@@ -32,7 +32,6 @@
                             <constraint firstItem="3as-wi-SEx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="F7m-Nh-38g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3as-wi-SEx" secondAttribute="trailing" constant="16" id="HsS-bz-VkL"/>
                             <constraint firstItem="zXs-5b-69a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="K3y-PU-d1x"/>
-                            <constraint firstItem="3as-wi-SEx" firstAttribute="width" secondItem="zXs-5b-69a" secondAttribute="width" id="fSm-Lo-ec6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zXs-5b-69a" secondAttribute="trailing" constant="16" id="h44-Ge-zwW"/>
                             <constraint firstItem="zXs-5b-69a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="tFZ-TB-TWN"/>
                             <constraint firstItem="3as-wi-SEx" firstAttribute="height" secondItem="zXs-5b-69a" secondAttribute="height" id="xJ4-FM-P2v"/>
